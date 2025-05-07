@@ -1,0 +1,83 @@
+body{
+    height: 520px;
+    width: 350px;
+    margin: auto;
+    margin-top: 20px;
+    border: 2px solid black;
+    background-color:black ;
+}
+#weather{
+    background: #DC2424;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4A569D, #DC2424);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4A569D, #DC2424); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    border-radius: 30px;
+}
+#search>img{
+    
+    height:25px;  
+    margin-top: 10px;
+    
+    
+}
+#main>img{
+    margin-left: 70px;
+    
+    
+}
+#temp{
+    font-size: 40px;
+    margin-left: 140px;
+    margin-top: auto;
+    margin-bottom: auto;
+    color: white;
+}
+#city{
+    font-size: 30px;
+    margin-left: 130px;
+    margin-top: auto;
+    color: white;
+}
+
+
+#search{
+    height: 10px;
+    padding: 20px;
+    margin-left: 25px;
+    /* background-color: white; */
+    display: inline-block;
+    
+}
+input{
+    height: 35px;
+    width: 250px;
+    margin-left: auto;
+    border: 1px solid transparent;
+    border-radius: 20px 20px 20px 20px;
+}
+.col{
+    display: inline-block;
+    
+    margin-right: 30px;
+   
+}
+.col>img{
+    height: 50px;
+    margin-left: 70px;
+    justify-content: space-evenly;
+    
+    
+}
+#wind{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 70px;
+}
+#humidity{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 70px;
+}
+p{
+    margin-left: 70px; 
+}
